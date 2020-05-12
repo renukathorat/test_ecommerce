@@ -31,14 +31,7 @@ public class BaseEcommerce {
 			  System.setProperty("webdriver.chrome.driver","/Users/renuka/chromedriver" );
 		      driver = new ChromeDriver();
 		  } 
-		  else if(browserName.equals("Firefox"))
-		  {
-		  
-		  } 
-		  else if(browserName.equals("IE") )
-		  {
-		  
-		  }
+		 
 		  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		  return driver;
 		 
